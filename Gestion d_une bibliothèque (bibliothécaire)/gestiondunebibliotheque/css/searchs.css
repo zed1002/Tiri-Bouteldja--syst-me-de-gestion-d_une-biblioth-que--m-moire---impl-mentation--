@@ -1,0 +1,1226 @@
+body{
+    margin:0;
+    
+  }
+  .section-1{
+    display: inline-block;
+    width:100%;
+    height:15%;
+    
+    
+
+  }
+
+ 
+
+
+  .searchbar-container{
+    text-align:center;
+    padding-top: 6rem;
+  }
+
+
+  @media (max-width: 600px) {
+    .searchbar-container {
+      padding-top: 6rem;
+    }}
+  
+  .search-bar{
+    border-radius: 30px;
+    display: inline;
+    margin-top: 3em;
+    width: 40%;
+    padding: .6em;
+    border: none;
+    
+  }
+
+
+
+  .dropdown {
+    display:inline-flex;
+    position:relative;
+    
+   }
+
+   .select:not(.is-multiple) {
+    height: 2.5em;
+}
+
+.select {
+    display: inline-block;
+    max-width: 100%;
+    position: relative;
+  
+    
+}
+
+
+
+select {
+    word-wrap: normal;
+    width: 45px;
+}
+
+.select select:hover{
+    background-color: #0044ff;
+    color: white;
+    
+}
+
+.select select {
+    cursor: pointer;
+    display: block;
+    font-size: 1em;
+    max-width: 100%;
+    outline: 0;
+    -webkit-appearance: none;
+align-items: center;
+border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+border-radius: 10px;
+box-shadow: none;
+display: inline-flex;
+font-size: 1rem;
+height: 2.5em;
+justify-content: flex-start;
+line-height: 1.5;
+padding-bottom: calc(.5em - 1px);
+padding-left: calc(.75em - 1px);
+padding-right: calc(.75em - 1px);
+padding-top: calc(.5em - 1px);
+position: relative;
+
+}
+
+.input, .select select, .textarea {
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-radius: 4px;
+    color: #363636;
+}
+
+
+
+.select:not(.is-multiple):not(.is-loading)::after {
+ border-color:#3273dc;
+ right:1.125em;
+ z-index:4
+}
+.select.is-rounded select {
+ border-radius:290486px;
+ padding-left:1em
+}
+.select select {
+ cursor:pointer;
+ display:block;
+ font-size:1em;
+ max-width:100%;
+ outline:0
+}
+.select select::-ms-expand {
+ display:none
+}
+.select select[disabled]:hover,
+fieldset[disabled] .select select:hover {
+ border-color:#f5f5f5
+}
+.select select:not([multiple]) {
+ 
+}
+.select select[multiple] {
+ height:auto;
+ padding:0
+}
+.select select[multiple] option {
+ padding:.5em 1em
+}
+
+
+
+
+
+
+
+.dropbtn {
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 20%;
+    align-content: center;
+    margin-top: 2em ;
+  }
+
+  .dropbtnp {
+    background-color: #eb05d7;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 20%;
+    align-content: center;
+    margin-top: 2em ;
+  }
+  
+
+  .dropbtno {
+    background-color: orange;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 20%;
+    align-content: center;
+    margin-top: 2em ;
+  }
+
+
+  .dropbtnrounded {
+    background-color:#cc00ff;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 10rem;
+    align-content: center;
+    margin-top: 2em ;
+  }
+
+  .clear-fix{
+      clear: both;
+  }
+
+
+
+
+  .wave-container {
+    background: #EEE;
+    position: relative;
+    background: #09F;
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+  }
+  .wave-container > svg {
+    display: block;
+  }
+
+  .wave {
+    background: #EEE;
+    position: relative;
+    background: #640880;
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+  }
+  .wave > svg {
+    display: block;
+  }
+
+  .wave-search {
+    background: #EEE;
+    position: relative;
+    background: #eb05d7;
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+  }
+  .wave-search > svg {
+    display: block;
+  }
+
+
+  .wavej-search {
+    background: #EEE;
+    position: relative;
+    background: #eb8f05;
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+  }
+  .wavej-search > svg {
+    display: block;
+  }
+
+  .wavet-search {
+    background: #EEE;
+    position: relative;
+    background: #0561eb;
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+  }
+  .wavet-search > svg {
+    display: block;
+  }
+
+
+  .waveu-search {
+    background: #EEE;
+    position: relative;
+    background: #01bbab;
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+  }
+  .waveu-search > svg {
+    display: block;
+  }
+
+  .svg-cont{
+    margin-top: 100px;
+  }
+
+  .waveo {
+    background: #EEE;
+    position: relative;
+    background:  rgb(255, 166, 1);
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+  }
+  .waveo > svg {
+    display: block;
+  }
+
+  svg {
+    overflow: hidden;
+    vertical-align: middle;
+    width: 100%;
+    margin-top: 140px;}
+
+
+  
+    
+
+   
+
+
+
+
+
+
+/*navigation*/
+
+
+
+    /*animation*/
+@keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-10rem); }
+    80% {
+      transform: translateX(1rem); }
+    100% {
+      opacity: 1;
+      transform: translate(0); } }
+  
+  
+      @keyframes moveInRight{
+        0% {
+          opacity: 0;
+          transform: translateX(10rem); }
+       
+        100% {
+          opacity: 1;
+          transform: translate(0rem); } }
+  
+  
+  
+  
+  
+  .navigation__checkbox {
+      display: none; }
+    
+    .navigation__button {
+      background-color: #fff;
+      height: 4rem;
+      width: 4rem;
+      position: fixed;
+      top: 1.5rem;
+      right: 2rem;
+      border-radius: 50%;
+      z-index: 2000;
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+      text-align: center;
+      cursor: pointer; }
+    
+    .navigation__background {
+      height: 3rem;
+      width: 3rem;
+      border-radius: 50%;
+      position: fixed;
+      top: 2.5rem;
+      right: 2.5rem;
+      background-image: radial-gradient(#00fff2, #04c4ff);
+      z-index: 1000;
+      transition: all 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
+    
+    .navigation__nav {
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1500;
+      opacity: 0;
+      width: 0;
+      transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+    
+    .navigation__list {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      list-style: none;
+      text-align: center;
+      width: 100%; }
+    
+    .navigation__item {
+      margin: 1rem; }
+    
+    .navigation__link:link, .navigation__link:visited {
+      display: inline-block;
+      font-size: 3rem;
+      font-weight: 300;
+      padding: 1rem 2rem;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
+      background-size: 220%;
+      transition: all .4s; }
+      .navigation__link:link span, .navigation__link:visited span {
+        margin-right: 1rem;
+        display: inline-block; }
+    
+    .navigation__link:hover, .navigation__link:active {
+      background-position: 100%;
+      color: #0098fd;
+      transform: translateX(1rem); }
+    
+    .navigation__checkbox:checked ~ .navigation__background {
+      transform: scale(80); }
+    
+    .navigation__checkbox:checked ~ .navigation__nav {
+      opacity: 1;
+      width: 100%; }
+    
+    .navigation__icon {
+      position: relative;
+      margin-top: 2rem; }
+      .navigation__icon, .navigation__icon::before, .navigation__icon::after {
+        width: 2rem;
+        height: 2px;
+        background-color: #333;
+        display: inline-block; }
+      .navigation__icon::before, .navigation__icon::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        transition: all .2s; }
+      .navigation__icon::before {
+        top: -.8rem; }
+      .navigation__icon::after {
+        top: .8rem; }
+    
+    .navigation__button:hover .navigation__icon::before {
+      top: -1rem; }
+    
+    .navigation__button:hover .navigation__icon::after {
+      top: 1rem; }
+    
+    .navigation__checkbox:checked + .navigation__button .navigation__icon {
+      background-color: transparent; }
+    
+    .navigation__checkbox:checked + .navigation__button .navigation__icon::before {
+      top: 0;
+      transform: rotate(135deg); }
+    
+    .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
+      top: 0;
+      transform: rotate(-135deg); }
+  
+  
+  
+  
+  
+  
+      .heading-primary {
+       
+        text-transform: uppercase;
+        
+        /* to remove the chakiness of the animation to the top*/
+        backface-visibility: hidden;
+         }
+        .heading-primary--main {
+          display: block;
+          font-size: 3.2rem;
+          font-weight: 400;
+          letter-spacing: .5rem;
+          animation-name: moveInLeft;
+          animation-duration: 1s;
+          /*starts fast then it slows a little bit*/
+          animation-timing-function: ease-out;
+          /*how much it waits to start the animation
+              animation-delay: 1s;
+              it repeats 3 times
+              animation-iteration-count: 3;*/ }
+
+
+              .headingR-primary--main {
+                display: block;
+                font-size: 2.5rem;
+                font-weight: 400;
+                letter-spacing: .5rem;
+                animation-name: moveInRight;
+                animation-duration: 1s;
+                /*starts fast then it slows a little bit*/
+                animation-timing-function: ease-out;
+                /*how much it waits to start the animation
+                    animation-delay: 1s;
+                    it repeats 3 times
+                    animation-iteration-count: 3;*/ }
+
+                    .headingR-primary--main2 {
+                      display: block;
+                      font-size: 1.6rem;
+                      font-weight: 400;
+                      letter-spacing: .5rem;
+                      animation-name: moveInRight;
+                      animation-duration: 1s;
+                      /*starts fast then it slows a little bit*/
+                      animation-timing-function: ease-out;
+                      /*how much it waits to start the animation
+                          animation-delay: 1s;
+                          it repeats 3 times
+                          animation-iteration-count: 3;*/ }
+
+                          @media (max-width: 600px) {
+                            .headingR-primary--main2  {
+                              font-size: 1.3rem;
+                            }}
+
+
+                            .heading-secondary {
+                              font-size: 1.6rem;
+                              text-transform: uppercase;
+                              font-weight: 700;
+                              display: inline-block;
+                              background-image: linear-gradient(to right, rgba(41, 152, 255, 0.85), rgba(86, 52, 250, 0.85));
+                              -webkit-background-clip: text;
+                              color: transparent;
+                              letter-spacing: 2px;
+                              transition: all .2s; }
+                              @media (max-width: 26.25em) {
+                                .heading-secondary {
+                                  font-size: 3rem; } }
+                              @media (max-width: 37.5em) {
+                                .heading-secondary {
+                                  font-size: 2.5rem; } }
+                              .heading-secondary:hover {
+                                transform: skewY(2deg) skewX(15deg) scale(1.1);
+                                text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+  
+  
+              .table--list{
+                width:100%;
+              }
+  
+              .table td{
+                width: 2%;
+              }
+
+
+
+
+              
+
+
+
+
+              
+.btn {
+    /* it is like a child of an element 
+  we are obliged to put content even if is empty*/ }
+    .btn, .btn:link, .btn:visited {
+      
+      text-decoration: none;
+      
+      display: inline-block;
+      
+      transition: all .2s;
+      position: relative;
+      font-size: 1rem;
+      border: none;
+      cursor: pointer; }
+    .btn:hover {
+      transform: translateY(-0.3rem);
+      /*box-shadow: xdirection ydirection blur color*/
+       }
+      .btn:hover::after {
+        /* scale(2) double the size 
+              scale: the entire element
+              scaleX scaleY on x and y*/
+        transform: scaleX(1.5) scaleY(1.6);
+        opacity: 0; }
+    .btn:active, .btn:focus {
+      outline: none;
+      transform: translateY(-0.1rem);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+    .btn--white {
+      background-color: #fff;
+      color: #777;
+      margin-left: 0;
+    }
+      .btn--white::after {
+        background-color: #fff; }
+    .btn--green {
+      background-color: #55c57a;
+      color: #fff; }
+      .btn--green::after {
+        background-color: #fff; }
+    .btn::after {
+      content: "";
+      display: inline-block;
+      /*100% of the width and height of the button*/
+      width: 100%;
+      height: 100%;
+      border-radius: 10rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      /*z-index: defines the position of the elements if they are one on top of another
+         -1 behind the element*/
+      z-index: -1;
+      transition: all .4s; }
+    .btn--animated {
+      animation: moveInBottom .5s ease-out .75s;
+      /*apply the styles up to 0% before the animation starts */
+      animation-fill-mode: backwards; }
+  
+  .btn-text:link, .btn-text:visited {
+    font-size: 1.6rem;
+    color: #55c57a;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px solid #55c57a;
+    padding: 3px;
+    transition: all .2s; }
+  
+  .btn-text:hover {
+    background-color: #55c57a;
+    color: white;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px); }
+  
+  .btn-text:active {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(0); }
+
+
+    
+    @media (max-width: 600px) {
+        .container {
+            margin-top: 30px;
+        }}
+
+
+
+        .corner{
+          position: fixed;
+          width: 350px;
+          height: 350px;
+          background: linear-gradient(to bottom, #640880, #eb05d7);
+          border-radius: 60% 40% 40% 20%;
+          top: -100px;
+          right: -25px;
+          animation-name: moveInRight;
+          animation-duration: 1s;
+          /*starts fast then it slows a little bit*/
+          animation-timing-function: ease-out;
+      }
+
+     
+
+        @media (max-width: 1300px) {
+          .corner {
+            width: 30%;
+            height: 35%;
+            top: -10%;
+  
+          }}
+
+          @media (max-width: 600px) {
+            .corner {
+              width: 32%;
+              height: 28%;
+              top: -10%;
+    
+            }}
+
+
+      .scorner{
+        position: fixed;
+        width: 300px;
+        height: 250px;
+        background: linear-gradient(to top, #640880, #eb05d7);
+        border-radius: 70% 50% 90% 0%;
+        bottom: 0%;
+        left: -30px;
+        animation-name: moveInLeft;
+          animation-duration: 1s;
+          /*starts fast then it slows a little bit*/
+          animation-timing-function: ease-out;
+    }
+
+
+
+
+  
+
+      @media (max-width: 1300px) {
+        .scorner {
+          width: 20%;
+          height: 35%;
+  
+        }}
+
+        @media (max-width: 600px) {
+          .scorner {
+            width: 45%;
+            height: 30%;
+    
+          }}
+
+          .rowp {
+            max-width: 114rem;
+            margin: 0 5%; }
+
+          .rowp .col1 {
+            width: calc((100% - 5px)/2); 
+            float: left;
+          }
+
+
+        
+          
+
+          
+  .col2{
+    width: 40%;
+    float:left;
+  }
+
+  @media (max-width: 600px) {
+    .col2 {
+      width: 100%;
+
+    }}
+
+
+  .col3{
+    width: 60%;
+    float:left;
+  }
+
+  @media (max-width: 600px) {
+    .col3 {
+      width: 100%;
+
+    }}
+
+         
+
+
+          .psearch{
+            border-radius: 30px;
+            display: inline;
+            margin-top: 1.5em;
+            width: 80%;
+            padding: .6em;
+            border: none;
+            float: left;
+          }
+            .pbsearch:hover{
+              border: solid 2px #fac104;
+
+            }
+
+          .pbsearch{
+            border-radius: 30px;
+            display: inline;
+            width: 80%;
+            padding: .6em;
+            border: none;
+            float: left;
+          }
+
+          @media (max-width: 600px) {
+            .rowp .col1 {
+              width: 100%;
+            
+      
+            }}
+
+           .btncont{
+            text-align: center;
+           }
+
+
+           .pcorner{
+            position: fixed;
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(to bottom, #ffee03, #f87901);
+            border-radius: 10px 100px / 120px;
+            bottom: 0px;
+            right: -15px;
+            animation-name: moveInRight;
+            animation-duration: 1s;
+            /*starts fast then it slows a little bit*/
+            animation-timing-function: ease-out;
+            
+        }
+        .pbcorner{
+          position: fixed;
+          width: 250px;
+          height: 200px;
+          background: linear-gradient(to bottom, #f87901, #ffee03);
+          border-radius: 10px 100px / 90px;
+          bottom: -10px;
+          right: -30px;
+          animation-name: moveInRight;
+          animation-duration: 1s;
+          /*starts fast then it slows a little bit*/
+          animation-timing-function: ease-out;
+          
+      }
+        .ptcorner{
+          position: fixed;
+          width: 150px;
+          height: 160px;
+          background: linear-gradient(to bottom, #f87901, #ffee03);
+          border-radius: 50% 50% 50% 50%;
+          top: -10px;
+          right: -25px;
+          animation-name: moveInRight;
+          animation-duration: 1s;
+          /*starts fast then it slows a little bit*/
+          animation-timing-function: ease-out;
+          
+      }
+
+
+      .plcorner{
+        position: fixed;
+        width: 150px;
+        height: 160px;
+        background: linear-gradient(to bottom, #f87901, #ffee03);
+        border-radius: 50% 50% 50% 50%;
+        top: -20px;
+        left: -30px;
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        /*starts fast then it slows a little bit*/
+        animation-timing-function: ease-out;
+        
+    }
+
+
+
+      .prcorner{
+        position: fixed;
+        width: 150px;
+        height: 160px;
+        background: linear-gradient(to bottom, #f87901, #ffee03);
+        border-radius: 50% 50% 50% 50%;
+        bottom: -10px;
+        left: -30px;
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        /*starts fast then it slows a little bit*/
+        animation-timing-function: ease-out;
+        
+    }
+
+    .pscorner{
+      position: fixed;
+      width: 400px;
+      height: 400px;
+      background: linear-gradient(to bottom, #f87901, #ffee03);
+      border-radius: 10px 100px / 90px;
+      bottom: -10px;
+      right: -30px;
+      animation-name: moveInRight;
+      animation-duration: 1s;
+      /*starts fast then it slows a little bit*/
+      animation-timing-function: ease-out;
+      
+  }
+
+  .cornerimage{
+    position: fixed;
+bottom: 0%;
+right: 0;
+width: 350px;
+height: 350px;
+animation-name: moveInRight;
+animation-duration: 1s;
+animation-timing-function: ease-out;
+  }
+
+
+  @media (max-width: 1300px) {
+    .cornerimage{
+      width: 200px;
+height: 200px;
+    }}
+
+  @media (max-width: 600px) {
+    .cornerimage {
+      visibility: hidden;
+
+    }}
+
+
+
+  .cornerimage2{
+    position: fixed;
+bottom: 6%;
+left: 0;
+width: 300px;
+height: 300px;
+animation-name: moveInRight;
+animation-duration: 1s;
+animation-timing-function: ease-out;
+
+  }
+
+
+  @media (max-width: 1300px) {
+    .cornerimage2 {
+      visibility: hidden;
+    }}
+
+  @media (max-width: 600px) {
+    .cornerimage2 {
+      visibility: hidden;
+
+    }}
+  
+
+
+
+    .cornerimage3{
+      position: fixed;
+  top: 0%;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  
+    }
+  
+  
+    @media (max-width: 1300px) {
+      .cornerimage3 {
+        visibility: hidden;
+      }}
+  
+    @media (max-width: 600px) {
+      .cornerimage3 {
+        visibility: hidden;
+  
+      }}
+
+
+
+
+  .searchimgs{
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    /*starts fast then it slows a little bit*/
+    animation-timing-function: ease-out;
+  }
+ .inputp{
+    border-radius: 10px;
+    display: inline;
+    margin-top: 1.5em;
+    width: 40%;
+    padding: .6em;
+    border: solid 2px #f8aa01;
+    float: left;
+    margin-left: 20%;
+
+   }
+.borrowimg{
+  margin-top:10%
+}
+
+.borrowcontainer{
+  margin-left: 15%;
+margin-top: 3%;
+}
+
+.cornerimageth{
+      position: fixed;
+  bottom: -5%;
+  right: 0;
+  width: 300px;
+  height: 300px;
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+    }
+  
+  
+    @media (max-width: 1300px) {
+      .cornerimageth{
+        width: 200px;
+  height: 200px;
+      }}
+  
+    @media (max-width: 600px) {
+      .cornerimageth {
+        visibility: hidden;
+  
+      }}
+
+
+
+      .section-book {
+        width: 100%;
+        padding: 2rem 0;
+        background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 52, 250, 0.85)); }
+
+        .section-reserve {
+          width: 100%;
+          padding: 2rem 0;
+          background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+      
+      .book {
+        background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(http://localhost/gestiondunebibliotheque/image/Nerd-amico2.svg);
+        background-size: 100%;
+        border-radius: 3px;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+        margin: 2% 3%;
+      }
+
+      @media (max-width: 600px) {
+        .book {
+        background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+    
+        }}
+
+
+        .section-reserve {
+          width: 100%;
+          padding: 2rem 0;
+          background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+      
+      .reserve {
+        background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(http://localhost/gestiondunebibliotheque/image/Library-cuate.svg);
+        background-size: 100%;
+        border-radius: 3px;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+        margin: 4% 3%;
+      }
+      
+      @media (max-width: 600px) {
+        .reserve {
+        background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+    
+        }}
+
+
+        .section-return {
+          width: 100%;
+          padding: 2rem 0;
+          background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+
+
+          .section-user {
+            width: 100%;
+            padding: 2rem 0;
+            background-image: linear-gradient(to right bottom, #e9df56, #fdcc2c); }
+      
+      .return {
+        background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(http://localhost/gestiondunebibliotheque/image/Library-pana.svg);
+        background-size: 100%;
+        border-radius: 3px;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+        margin: 4% 3%;
+      }
+
+
+      .user {
+        background-image: linear-gradient(105deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, transparent 50%), url(http://localhost/gestiondunebibliotheque/image/AddUser-bro.svg);
+        background-size: 100%;
+        border-radius: 3px;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+        margin: 4% 3%;
+      }
+
+      @media (max-width: 600px) {
+        .user {
+          height: 120vh;
+        }}
+
+      
+      
+      @media (max-width: 600px) {
+        .return {
+        background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+    
+        }}
+
+        .book__form {
+          width: 50%;
+          padding: 2rem 3rem; }
+
+          @media (max-width: 600px) {
+            .book__form {
+              width:100%;
+        
+            }}
+
+
+
+
+
+            
+        .section-bookform {
+          width: 100%;
+          padding: 2rem 0;
+           }
+      
+      .bookform {
+        background-image: linear-gradient(270deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, transparent 50%), url(http://localhost/gestiondunebibliotheque/image/Library-pana.svg);
+        background-size: 100%;
+        border-radius: 3px;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+        margin: 4% 3%;
+        height: 80vh;
+      }
+
+
+      .thesisform {
+        background-image: linear-gradient(270deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, transparent 50%), url(http://localhost/gestiondunebibliotheque/image/Library-cuat.svg);
+        background-size: 100%;
+        border-radius: 3px;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+        margin: 4% 3%;
+        height: 80vh;
+      }
+
+      .journalform {
+        background-image: linear-gradient(270deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, transparent 50%), url(http://localhost/gestiondunebibliotheque/image/Library-bro.svg);
+        background-size: 100%;
+        border-radius: 3px;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+        margin: 4% 3%;
+        height: 80vh;
+      }
+      
+      @media (max-width: 600px) {
+        .bookform {
+        background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+        height: 160vh;
+        }}
+
+        @media (max-width: 600px) {
+          .journalform {
+          background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+          height: 130vh;
+          }}
+
+
+          @media (max-width: 600px) {
+            .thesisform {
+            background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+            height: 150vh;
+            }}
+
+        .bkfr {
+          width: 50%;
+          padding: 2rem 3rem; }
+
+          @media (max-width: 600px) {
+            .bkfr {
+              width:100%;
+        
+            }}
+
+
+            .bkf{
+              width: 40%;
+              float: right;
+              margin-top: 3rem;
+              margin-right: 4rem;
+            }
+
+
+            @media (max-width: 600px) {
+              .bkf {
+                width:70%;
+          
+              }}
+      
+
+            .u-margin-bottom-medium {
+              margin-bottom: 1rem !important; }
+
+
+              .nvbr{
+                background-image: url('../image/wave3.svg'); 
+                position: absolute;width: 100%;
+                height: 20%;
+                margin-bottom: 20px;
+              }
+
+              @media (max-width: 600px) {
+                .nvbr {
+                  position: absolute;
+                  top: -1%;
+                  height: 16%;
+            
+                }}
+
+
+                .btn-ex{
+                  background-color: rgb(255, 197, 5);
+                  border-radius: 30px;
+                  padding: .8rem 2rem;
+                 
+              }
+
+
+
+
+
+
+              @media screen and (max-width: 600px) {
+                tr { 
+                  display: flex; 
+                  flex-direction: row;
+                  flex-wrap: wrap;
+                  margin: 0.5em 0;
+                  border: 1px solid rgba(3,3,3,0.2);
+                }
+                td, th {
+                  flex: 1 1 150px;
+                  border: 0.5px solid rgba(3,3,3,0.2);
+                }
+                td.edit-buttons, td.empty {
+                  /*flex: 1 0 90%;
+                  text-align: center;*/
+                }
+              }
+              
+             
+
+
+            
