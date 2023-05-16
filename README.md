@@ -28,7 +28,7 @@ Vous devez vous connecter à l'email du bibliothécaire avant de tester les fonc
 
 
 email: librarymanagement999@gmail.com
-mot de pass: gestiondunebibliotheque999
+
 
 
 
